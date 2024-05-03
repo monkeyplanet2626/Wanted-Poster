@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  z-index: 1;
+}
+
+@font-face {
+  font-family: 'Bronco';
+  src: url('BroncoPersonalUse.ttf');
+}
+
+.titletext {
+  font-family: 'Bronco';
+  font-size: 45px;
+  color: #333333;
+  text-align: center;
+}
+
+.startbutton  {
+  border: 3px solid #8B4513;
+  background-color: #D2B48C;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #8B4513;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  width: 50%; /* Set the desired width of the div */
+  margin: 0 auto; /* Set left and right margins to 'auto' */
+}
+
+.explanation {
+  border: 1px solid #ccc; /* Optional: Add border for visualization */
+  padding: 10px; /* Optional: Add padding for content */
+  overflow-wrap: break-word; /* Enable word wrap */
+  background-color: #D2B48C;
+  border-radius: 5px;
+}
+
+.wantedposter {
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  transform: scale(1.5);
+}
